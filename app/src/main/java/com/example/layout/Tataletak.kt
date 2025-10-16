@@ -20,6 +20,7 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.unit.dp
+import androidx.compose.ui.unit.sp
 import kotlin.contracts.contract
 
 @Composable
@@ -142,6 +143,7 @@ fun TataletakBoxColumnRow(modifier: Modifier) {
                 contentDescription = null,
                 contentScale = ContentScale.Fit)
             Text(text = "My Music",
+                fontSize = 50.sp
                 )
         }
         )
