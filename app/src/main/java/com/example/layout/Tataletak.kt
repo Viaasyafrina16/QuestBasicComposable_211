@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.magnifier
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -56,7 +57,20 @@ fun TataletakColumnRow(modifier: Modifier) {
         //Baris1
         Row(modifier = modifier.fillMaxWidth(),
             horizontalArrangement = Arrangement.SpaceEvenly) {
+            Text(text  = "Komponen1Baris1")
+            Text(text  = "Komponen2Baris1")
+            Text(text  = "Komponen3Baris1")
 
+        }
+        //Baris2
+        Row(modifier = modifier.fillMaxWidth(),
+            horizontalArrangement = Arrangement.SpaceEvenly){
+            Text(text = "Komponen1Baris2")
+            Text(text = "Komponen2Baris2")
+            Text(text = "Komponen3Baris2")
         }
     }
 }
+
+
+
